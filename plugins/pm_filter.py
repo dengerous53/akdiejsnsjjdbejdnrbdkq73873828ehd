@@ -431,25 +431,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
         ]]
-        reply1 = await query.message.reply_text(
-            text="â–¢â–¢â–¢"
-        )
-        await asyncio.sleep(0.5)
-        reply2 = await reply1.edit_text(
-            text="â–£â–¢â–¢"
-        )
-        await asyncio.sleep(0.5)
-        reply3 = await reply2.edit_text(
-            text="â–£â–£â–¢"
-        )
-        await asyncio.sleep(0.5)
-        reply4 = await reply3.edit_text(
-            text="â–£â–£â–£"
-        )
-        await reply4.delete()
         reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text=script.START_TXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
+        await message.reply_chat_action("Typing")
+        m=await message.reply_sticker("CAACAgUAAxkBAAEFXjpi3UkE0ZhynSwLX09m3hbV8mT3_QACagQAAuW0-FcThm6lMMZRtikE") 
+        await asyncio.sleep(1)
+        await m.delete()
+        await message.reply_photo(
+            photo=random.choice(PICS),
+            caption=script.START_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
             reply_markup=reply_markup,
             parse_mode='html'
         )

@@ -66,4 +66,7 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
 
 API = environ.get('API')
 WEBSITE = environ.get('WEBSITE')
-WEBWITHAPI = environ.get('WEBWITHAPI')
+UPDATES = environ.get('UPDATES')
+GROUP = environ.get('GROUP')
+HOWTO = environ.get('HOWTO')
+CHANNEL= environ.get('CHANNEL')

@@ -31,7 +31,7 @@
             "required": true
         },
         "CHANNELS": {
-            "description": "Username or ID of channel or group. Separate multiple IDs by space.",
+            "description": "Username or ID of Database channel or group. Separate multiple IDs by space.",
             "required": false
         },
         "ADMINS": {
@@ -66,6 +66,10 @@
             "description": "Name of the collections. Defaults to Telegram_files. If you are using the same database, then use different collection name for each bot",
             "value": "Telegram_files",
             "required": false
+        },
+        "CHANNEL": {
+            "description": "Channel Url Button",
+            "required": true 
         }
     },
     "addons": [],

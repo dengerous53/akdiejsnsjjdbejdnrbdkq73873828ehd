@@ -74,6 +74,10 @@
         "UPDATES": {
             "description": "Updates Channel Link",
             "required": true
+        },
+        "API": { 
+            "description": "Link Shortner Api",
+            "required": true
         }
     },
     "addons": [],

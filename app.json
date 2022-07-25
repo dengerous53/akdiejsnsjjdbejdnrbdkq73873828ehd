@@ -77,6 +77,10 @@
         },
         "API": { 
             "description": "Link Shortner Api",
+            "required": true 
+        },
+        "WEBSITE": { 
+            "description": "Link Shortner Website Link"
             "required": true
         }
     },

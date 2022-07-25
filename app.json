@@ -77,10 +77,6 @@
         },
         "API": { 
             "description": "Link Shortner Api",
-            "required": true 
-        },
-        "HOWTO": {
-            "description": "How To Download Button Url"
             "required": true
         }
     },

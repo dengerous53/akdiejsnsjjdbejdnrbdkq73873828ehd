@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url=f'https://t.me/{UPDATES}')
+                InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url=f'{UPDATES}')
             ],
             [
                 InlineKeyboardButton('ʜᴇʟᴘ', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -44,8 +44,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ ᴀᴅᴅ ʙᴏᴛ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url=f'https://t.me/{CHANNEL}'),
-            InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url=f'https://t.me/{UPDATES}')
+            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url=f'{CHANNEL}'),
+            InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url=f'{UPDATES}')
         ], [
             InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
@@ -94,8 +94,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ ᴀᴅᴅ ʙᴏᴛ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url=f'https://t.me/{CHANNEL}'),
-            InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url=f'https://t.me/{UPDATES}')
+            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url=f'{CHANNEL}'),
+            InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url=f'{UPDATES}')
         ], [
             InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')

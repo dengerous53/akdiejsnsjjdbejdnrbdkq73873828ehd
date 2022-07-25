@@ -70,6 +70,10 @@
         "CHANNEL": {
             "description": "Channel Url Button",
             "required": true 
+        },
+        "UPDATES": {
+            "description": "Updates Channel Link",
+            "required": true
         }
     },
     "addons": [],

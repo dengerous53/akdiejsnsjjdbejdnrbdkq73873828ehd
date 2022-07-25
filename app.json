@@ -86,6 +86,7 @@
         "HOWTO": {
             "description": "How To Download Button Url"
             "required": true
+        }
     },
     "addons": [],
     "buildpacks": [{
